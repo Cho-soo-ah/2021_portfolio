@@ -1,0 +1,162 @@
+*{margin: 0; padding: 0;}
+ul, li{list-style: none;}
+a{text-decoration: none;}
+img{display: block;}
+body,h1,h3,h4,h5,a,p,span{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+
+
+/*.........................................*/
+
+body{
+    background-color: #ead7b7;
+    overflow-x: hidden;
+}
+
+#nav{
+    background-color: #a42425;
+    height: 200px;
+}
+.menu{
+    height: 16px;
+    float: left;
+    margin-right: 150px;
+    margin-top: 90px;
+}
+.menu:hover{
+    cursor: pointer;
+}
+#nav img{
+    height: 100%;
+}
+#logo{
+    width: 300px;
+    height: 90px;
+    float: left;
+    margin: 50px 100px;
+}
+#logo>img{
+    width: 100%;
+}
+/*...................*/
+#map{
+    margin: 50px 100px 130px;
+    height: 30px;
+}
+#map>img{
+    height: 100%;
+}
+#map>h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+#banner{
+    width: 100%;
+}
+/*.........................*/
+#con{
+    height: 1000px;
+    float: left;
+    overflow: hidden;
+}
+#con_left{
+    float: left;
+}
+#line{
+    width: 2px;
+    height: 800px;
+    background-color: #a42425;
+    margin-top: 100px;
+    margin-left: 100px;
+    float: left;
+}
+#left_box{
+    float: left;
+    width: 12px;
+    height: 230px;
+    margin: 400px 20px;
+    overflow: hidden;
+    position: relative;
+}
+#btn_wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.left_btn{
+    width: 12px;
+    height: 2px;
+    margin-bottom: 50px;
+    background-color: #a42425;
+    transition-duration: 0.4s;
+}
+.left_btn:nth-child(1){
+    height: 12px;
+}
+/*left,,,,,,,,,,,,*/
+#con_mid{
+    float: left;
+    margin-top: 400px;
+    margin-left: 150px;
+    width: 1210px;
+}
+#con_wrap{
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+}
+#mid_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mid_con{
+    margin-bottom: 50px;
+}
+.mid_con img{
+    width: 100%;
+    height: auto;
+}
+/*mid......................*/
+#con_right{
+    float: right;
+    margin-top: 180px;
+}
+
+/*-------footer----------------*/
+footer{
+    height: 400px;
+    color: #ead7b7;
+    float: left;
+    background-color: #691717;
+    position: relative;
+}
+footer>img{
+    margin-top: 70px;
+}
+#sns_box{
+    float: left;
+    margin-top: 70px;
+    margin-left: 720px;
+}
+#sns_box>img{
+    position: relative;
+    float: left;
+    width: 50px;
+    margin-right: 100px;
+}
+#sns_box>img:hover{
+    cursor: pointer;
+}
+#footer_txt{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 100;
+}

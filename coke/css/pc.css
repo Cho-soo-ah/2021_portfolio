@@ -1,0 +1,272 @@
+*{margin: 0; padding: 0;}
+ul, li{list-style: none;}
+a{text-decoration: none;}
+img{display: block;}
+body,h1,h3,h4,h5,a,p,span{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+
+
+/*초기화*/
+body{
+    width: 100%;
+    background-color: #ead7b7;
+    overflow-x: hidden;
+}
+section{
+    width: 100%;
+}
+#sec_1{
+    position: relative;
+    height: 1350px;
+}
+#sec1_left{
+    width: 730px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#sec1_left>img{
+    width: 100%;
+}
+#back_logo{
+    position: relative;
+    top: 800px;
+    right: 60px;
+    opacity: 70%;
+    width: 80%;
+
+}
+#back_logo img{
+    width: 100%;
+}
+#sec1_right{
+    position: relative;
+    width: 860px;
+    height: 900px;
+    top: -450px;
+    left: 960px;
+    float: left;
+}
+#sec1_up{
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+#sec1_up>img{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-bottom: 30px;
+}
+#sec1_txt_box{
+    width: 90%;
+    float: left;
+}
+#sec1_title{
+    width: 320px;
+    margin-bottom: 50px;
+}
+#sec1_title>img{
+    width: 100%;
+}
+#sec1_txt_box>p{
+    color: #212121;
+    font-size: 18px;
+    font-weight: 300;
+}
+#sec1_down{
+    width: 100%;
+    height: 400px;
+}
+#logo_up{
+    height: 150px;
+    margin-bottom: 50px;
+    float: left;
+}
+#logo_down{
+    height: 150px;
+    float: right;
+    margin-right: 50px;
+}
+.sec1_logo{
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+    float: left;
+}
+.sec1_logo>img{
+    width: 100%;
+}
+.sec1_logo:hover{
+    cursor: pointer;
+}
+#sec1_button_box{
+    width: 170px;
+    margin-right: 100px;
+}
+
+/*------------sec 1 end ---------*/
+
+#sec_2{
+    float: left;
+}
+#sec2_left{
+    width: 100%;
+}
+
+#sec2_txt_box{
+    width: 860px;
+    height: 370px;
+    float: left;
+    margin-left: 100px;    
+    margin-bottom: 80px;
+}
+#sec2_title{
+    width: 600px;
+    margin-bottom: 30px;
+}
+#sec2_title>img{
+    width: 100%;
+}
+#sec2_txt_box>p{
+    font-weight: 300;
+    font-size: 20px;
+    color: #212121;
+}
+#sec2_button_box{
+    float: right;
+    position: relative;
+    z-index: 999;
+}
+#sec2_button_box:hover{
+    cursor: pointer;
+}
+#sec2_con_box{
+    margin-top: -500px;
+    margin-left: 100px;
+    float: left;
+}
+.sec2_cont{
+    float: left;
+    z-index: 222;
+    position: relative;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 17px;
+    
+}
+.sec2_cont>img:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 8px;
+}
+.sec2_cont>img{
+    margin-bottom: 15px;
+    transition-duration: 0.3s;
+}
+.sec2_cont:hover{
+    cursor: pointer;
+}
+#sec2_right{
+    width: 750px;
+    float: right;
+    margin-top: -1100px;
+    margin-right: 50px;
+    position: relative;
+    
+/*    height: 1020px;m*/
+}
+#sec2_right>img{
+    width: 100%;
+}
+
+/*----------sec  2 end-------------*/
+#sec_3{
+    position: relative;
+}
+#sec_3>img{
+    width: 100%;
+}
+#sec3_con_box{
+    width: 670px;
+    position: absolute;
+    left: 500px;
+    right: 0;
+    bottom: 0;
+}
+.sec3_con>img{
+    width: 100%;
+}
+
+/*------------------sec 3 end------------*/
+#sec_4{
+    position: relative;
+    margin-top: 100px;
+}
+#sec_4>img{
+    position: relative;
+/*    top: -500px;*/
+}
+#sec4_txt_box{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: white;
+    width: 850px;
+}
+#sec4_txt_box>h1{
+    font-size: 35px;
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+#sec4_txt_box>p{
+    font-weight: 100;
+    font-size: 20px;
+    color: #eee;
+}
+#sec4_btn_box{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+#sec4_btn_box:hover{
+    cursor: pointer;
+}
+
+/*----------------------------------*/
+footer{
+    height: 400px;
+    color: #ead7b7;
+    float: left;
+    background-color: #691717;
+    position: relative;
+}
+footer>img{
+    margin-top: 70px;
+}
+#sns_box{
+    float: left;
+    margin-top: 70px;
+    margin-left: 720px; 
+}
+#sns_box>img{
+    position: relative;
+    float: left;
+    width: 50px;
+    margin-right: 100px;
+}
+#sns_box>img:hover{
+    cursor: pointer;
+}
+#footer_txt{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 100;
+}
+
+
+
